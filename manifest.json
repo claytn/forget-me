@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Incognito",
+  "name": "forget-me",
   "version": "0.1",
   "background": {
     "scripts": ["background.js"]
@@ -11,11 +11,6 @@
       "js": ["jquery-3.4.1.min.js", "content.js"]
     }
   ],
-  "browser_action": {
-
-  },
-  "permissions": [
-    "storage",
-    "tabs"
-  ]
+  "browser_action": {},
+  "permissions": []
 }
